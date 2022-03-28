@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    
+    <link rel="stylesheet" href="EstiloPokedex.css">
+</head>
+
+<body>
+
+    <div class="LimitesMenu" id="inicio1">
+        <div class="RecuadroDerecha" id="inicio2">
+            <div class="circulo" id="circulo1">
+
+            </div>
+            <div class="circulo2" id="circulo2">
+
+            </div>
+            <div class="circulo3" id="circulo3">
+
+            </div>
+            <div class="circulo4" id="circulo4">
+
+            </div>
+            <div class="LetrasPokemon" id="LetrasPoke">
+                <h1 class="texto-encimado-titulo">PoKéMoN</h1>
+
+            </div>
+            <div class="RecuadroImagen" id="RecuadroImagen">
+                <div class="img-poke">
+                <img src="./pokeball.png" alt="Pokemon" id="pokeImg" ><br>
+                </div>
+            </div>
+            <div class="RecuadroBusqueda" id="RecuadroBusqueda">
+                
+                <div id="formulario" class="formcontainer">
+                    <input type="text" id="pokeName" name="nombre" placeholder="Nombre del Pokemon" class="input2">
+                    
+                    
+                </div>
+                <div><span onclick="fetchPokemon()" class="boton"> Buscar Pokemon </span>	</div>
+            </div>
+            
+        </div>
+
+        <div class="Bisagra" id="bisagra1">
+            <div class="Bisagra1" id="b1">
+
+            </div>
+            <div class="Bisagra2" id="b2">
+
+            </div>
+        </div>
+        <div class="Derecha" id="derecha">
+            <div class="DatosPokeLetras" id="DPL">
+                <h1>Datos del pokemon</h1>
+            </div>
+            <div class="DatosPoke" id="DP">
+                <ul id = "Movimientos">
+  
+
+                    </ul>
+            </div>
+            <div class="EstadisticasPokeLetra" id="EPL">
+                <h1>Estadisticas del Pokemon</h1>
+            </div>
+            <div class="EstadisticasPoke" id="EP">
+                <ul id = "estadistica">
+
+                    
+
+                </ul> 
+            </div>
+        </div>
+        
+
+    </div>
+
+</body>
+<footer><script src="./Pokedex.js"></script></footer>
+</html>  
